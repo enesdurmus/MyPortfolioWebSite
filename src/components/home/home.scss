@@ -1,6 +1,9 @@
 .home{
     background-color: white;
     display: flex;
+    background-image: url('https://wallpaperaccess.com/full/660691.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .left{
         flex: 0.45;
@@ -9,7 +12,7 @@
         .imgContainer{
             width: 700px;
             height: 700px;
-            border-radius: 100%;
+            border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -17,7 +20,7 @@
 
 
             img{
-                height: 100%;
+                height: 90%;
             }
         }
     }
@@ -25,7 +28,7 @@
     .right{
         flex: 0.55;
         position: relative;
-
+    
         .wrapper{
             width: 100%;
             height: 100%;
@@ -33,6 +36,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            color: black;
 
             h1{
                 font-size: 60px;
@@ -45,6 +49,24 @@
 
             h3{
                 font-size: 30px;
+
+                span{
+                    color: lightgrey;
+                }
+                
+                .ityped-cursor{
+                    animation: blink 1.5s infinite;
+                }
+
+                @keyframes blink{
+                    50%{
+                        opacity: 1;
+                    }
+
+                    100%{
+                        opacity: 0;
+                    }
+                }
             }
         }
 

@@ -7,14 +7,14 @@ export default function topbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
 
                 <div className="left">
-                    <a href="#home" className="logo">sesaa</a>
+                    <a href="#home" className="logo">The Sari</a>
                     <div className="itemContainer">
                         <Person className="icon" />
-                        <span>+90 adasdasdsa</span>
+                        <span>+90 531 663 54 00</span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon" />
-                        <span>enesdurmus3738</span>
+                        <span>enesdurmus3738@gmail.com</span>
                     </div>
                 </div>   
 
